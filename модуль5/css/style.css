@@ -72,8 +72,6 @@ img {
 /* SLIDER */
 .slider {
     position: relative;
-    height: 602px;
-    width: 1600px;
     text-transform: uppercase;
 }
 .slider-control {
@@ -211,10 +209,8 @@ img {
     position: absolute;
     width: 255px;
     height: 322px;
-    border-width: 10px;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    background-color: rgba(0, 0, 0, 0);
+    border: 10px solid rgba(255, 255, 255, 0.7);
+    background-color: rgba(0, 0, 0, 0.549);
     opacity: 0;
 }
 
@@ -230,6 +226,7 @@ img {
 }
 .overlay-item  button {
     background-color: #323232;
+    text-transform: uppercase;
 }
 .button1 {
     position: absolute;
@@ -290,8 +287,7 @@ img {
 }
 /* HOVER */
 .collection-item:hover .overlay {
-    opacity: 0.549;
-    background-color:rgb(0, 0, 0);
+    opacity: 1;
 }
 .collection-item:hover .style-collection {
     background-color: #1abc9c;
