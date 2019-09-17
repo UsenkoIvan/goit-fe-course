@@ -1,5 +1,4 @@
 html {
-    width: 1600px;
     box-sizing: border-box;
 }
 
@@ -73,6 +72,10 @@ img {
 .slider {
     position: relative;
     text-transform: uppercase;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    /* height: 600px; */
+    padding-bottom: 600px;
 }
 .slider-control {
     position: absolute;
