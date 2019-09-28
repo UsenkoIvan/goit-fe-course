@@ -7,6 +7,9 @@ img {
     min-width: 100%;
     height: auto;
 }
+a {
+    display: block;
+}
 
 *,
 *::before,
@@ -35,7 +38,7 @@ img {
 .list-menu {
     display: flex;
     position: relative;
-    width: 490px;
+    min-width: 490px;
     justify-content: space-between;
     list-style: none;
     text-transform: uppercase;
@@ -69,13 +72,18 @@ img {
 .item-menu:hover .style::after {
     display: block;
 }
-.item-menu:hover a,
-.item-menu:focus a {
+.item-menu:hover a {
     color: #f38181;
+}
+.style:focus {
+    color: #f38181;   
 }
     
 
 /* Section */
+.section-team {
+    padding-bottom: 110px;
+}
 .title {
     font-family: 'Kaushan Script', cursive;
     text-align: center;
@@ -220,7 +228,7 @@ img {
     justify-content: center;
     width: 380px;
     height: 470px;
-    background-image: linear-gradient(to bottom, rgb(239, 140, 138) 50%, rgb(241, 215, 134) 100%);
+    background-image: linear-gradient(to bottom, rgba(239, 140, 138, 0.85) 50%, rgba(241, 215, 134, 0.85) 100%);
     transform: translate(0, 0);
     transition-property: opacity, transform;
     transition-duration: 200ms;
@@ -265,7 +273,7 @@ img {
     background-image: url(../img/meet-our-team/social-icon/instagram.png);
 }
 .item-team:hover  .overlay {
-    opacity: 0.85;
+    opacity: 1;
     box-shadow: 10px 10px #95e1d3;
     transform: translate(-10px, -10px); 
 }
@@ -293,10 +301,13 @@ img {
     padding-top: 16px;
 }
 /* FOOTER */
+.footer {
+    border-top: 1px solid #999999;
+}
   .footer-style {
       display: flex;
       justify-content: space-between;
-      padding-top: 110px;
+      align-items: center;
       padding-bottom: 22px;
       padding-left: 25px;
       font-family: 'Montserrat', sans-serif;
@@ -311,6 +322,7 @@ img {
   }
   .button-style {
       display: flex;
+      padding-top: 10px;
   }
   .button {
       font-weight: bold;
