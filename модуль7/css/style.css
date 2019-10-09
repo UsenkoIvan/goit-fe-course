@@ -1,0 +1,228 @@
+html {
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    min-width: 100%;
+    height: auto;
+}
+a {
+    display: block;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* NAV */
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 130px;
+    align-items: center;
+}
+.logo {
+    justify-content: flex-start;
+}
+.menu-list {
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    
+    text-transform: uppercase;
+}
+.menu-item {
+    margin-right: 40px;
+}
+.menu-item:nth-last-child(1) {
+    margin-right: 0;
+}
+.menu-item a {
+    text-decoration: none;
+    color: #222222;
+    transition-property: color;
+    transition-duration: 1.2s;
+}
+.menu-item:hover a {
+    color: #fed136;
+}
+.menu-item a:focus {
+    color: #fed136;
+}
+
+/* SECTION1 */
+.title-services {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222222;
+}
+.sub-title {
+    font-size: 16px;
+    color: #777777;
+    text-align: center;
+    padding-bottom: 180px;
+}
+
+.section-list {
+    display: flex;
+    text-align: justify;
+    list-style: none;
+}
+.section-item {
+    position: relative;
+    min-width: 290px;
+    margin-right: 35px;
+    margin-bottom: 120px;
+}
+.section-item:nth-child(3){
+    margin-right: 0;
+}
+.section-item h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.section-item p {
+    text-indent: 1.2em;
+    color: #777777;
+    font-size: 14px;
+}
+.section-item::before {
+    position: absolute;
+    left: 50%;
+    top: -100%;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    min-width: 74px;
+    min-height: 74px;
+    background-repeat: no-repeat;
+}
+.service-one::before {
+    background-image: url(../img/service/service1.png);
+}
+.service-two::before {
+    background-image: url(../img/service/service2.png);
+}
+.service-three::before {
+    background-image: url(../img/service/service3.png);
+}
+/* SECTION2 */
+.section-contact {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title-contact {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+.sub-title-contact {
+    text-align: center;
+    color: #777777;
+    padding-bottom: 78px;
+}
+/* FORM */
+.form-style {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-item {
+    margin-bottom: 30px;
+    list-style: none;
+}
+.contact-item:last-child {
+    margin-bottom: 0;
+}
+.contact-item input {
+    width: 455px;
+    height: 50px;
+}
+.contact-item input::placeholder {
+    padding-left: 20px;
+    color: #bbbbbb;
+    text-transform: uppercase;
+}
+.contact-item input[type="text"]:valid,
+.contact-item input[type="email"]:valid {
+    outline-color: #0f0;
+}
+.contact-item input[type="text"]:invalid,
+.contact-item input[type="email"]:invalid {
+    outline-color: #f00;
+}
+.messeage textarea {
+    resize: none;
+}
+.messeage textarea:valid {
+    outline-color: #0f0;
+}
+.messeage textarea:invalid {
+    outline-color: #f00;
+}
+.messeage textarea::placeholder {
+    color: #bbbbbb;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.button-form {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 25px 50px;
+    background-color: #fed136;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+}
+/* FONTS */
+.menu-item {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.section-item p {
+    font-family: 'Roboto';
+    font-weight: normal;
+}
+.sub-title,
+.sub-title-contact {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.contact-item input::placeholder {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.messeage textarea::placeholder {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.button-form {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
