@@ -1,0 +1,174 @@
+html {
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 320px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+/* NAV */
+.header {
+    background-image: url(../img/background.jpg);
+    min-height: 540px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.login-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 14px;
+}
+.login-list a {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 10px 16px;
+    color: #fff;
+    text-decoration: none;
+}
+.login-list a:hover,
+.login-list a:focus {
+    border-color: #ffffff;
+    outline: none;
+}
+.login-item {
+    list-style: none;
+    margin-top: 20px; 
+}
+.login-item:not(:last-child) {
+    margin-right: 20px;
+}
+/* .login-item button {
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+} */
+.login-item a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+}
+.logo {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+    margin: 120px auto 0px;
+    text-decoration: none;
+    width: 180px;
+}
+.title,
+.title-dreams,
+.sub-titile,
+.link-find {
+    text-align: center;
+    color: #ffffff;
+}
+.title {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 120px;
+    text-transform: uppercase;
+}
+.title-dreams {
+    padding-top: 40px;
+    font-size: 30px;
+}
+.link-find {
+    display: block;
+    text-decoration: none;
+}
+.sub-titile {
+    font-family: 'Roboto';
+    font-weight: 300;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.link-find {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    width: 280px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-size: 14px;
+    background-color: #ff4e50;
+}  
+/* Section */
+.title-partner {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #333333;
+    padding-top: 70px;
+    font-size: 22px;
+    text-align: center;
+}
+.list-partner {
+    list-style: none;
+}
+.item-partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.item-partner a {
+    display: block;
+    text-decoration: none;
+}
+.name-info {
+    font-size: 14px;
+    padding-top: 20px;
+}
+.name {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #333333;
+}
+.info {
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #666666;
+    text-align: center;
+    width: 220px;
+}
+.other-partner {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 2px solid #ff4e50;
+    border-radius: 30px;
+    color: #ff4e50;
+    width: 280px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+}

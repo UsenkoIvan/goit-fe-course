@@ -1,0 +1,78 @@
+
+@media (min-width: 768px)  {
+    .wrapper {
+        width: 768px;
+        padding: 0;
+    }
+    .header {
+        background-image: url(../img/background.jpg);
+        min-height: 700px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .logo {
+        display: block;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 20px;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 0;
+    }
+    .link-menu {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 40px;
+    }
+    .login-item {
+        margin-top: 0;
+    }
+    .title-768 {
+        display: none;
+    }
+    .title-dreams {
+        padding-top: 100px;
+        font-size: 52px;
+    }
+    .sub-titile {
+       padding-top: 40px;
+       font-size: 24px;
+    }
+    .link-find {
+        margin-top: 40px;
+        width: 230px;
+        padding: 10px 15px;
+    }
+    .list-partner {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .item-partner {
+        width: 364px;  
+    }
+    .two {
+        order: 2;
+    }
+    .three {
+        order: 1;
+    }
+    .four {
+        order: 3;
+    }
+    .other-partner {
+        margin-top: 40px;
+    }
+}
+@media (min-width: 942px) {
+    .wrapper {
+        width: 942px;
+    }
+    .list-partner {
+        flex-wrap: nowrap;
+    }
+}
