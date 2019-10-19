@@ -1,11 +1,11 @@
 
 @media (min-width: 768px)  {
     .wrapper {
-        width: 768px;
+        width: 748px;
         padding: 0;
     }
     .header {
-        background-image: url(../img/background.jpg);
+        background-image: url(../img/background768.jpg);
         min-height: 700px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -43,7 +43,6 @@
        font-size: 24px;
     }
     .link-find {
-        margin-top: 40px;
         width: 230px;
         padding: 10px 15px;
     }
@@ -68,9 +67,9 @@
         margin-top: 40px;
     }
 }
-@media (min-width: 942px) {
+@media (min-width: 960px) {
     .wrapper {
-        width: 942px;
+        width: 940px;
     }
     .list-partner {
         flex-wrap: nowrap;

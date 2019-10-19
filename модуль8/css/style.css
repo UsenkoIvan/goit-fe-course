@@ -16,13 +16,12 @@ img {
     padding: 0;
 }
 .wrapper {
-    width: 320px;
+    width: 300px;
     margin: 0 auto;
-    padding: 0 10px;
 }
 /* NAV */
 .header {
-    background-image: url(../img/background.jpg);
+    background-image: url(../img/background320.jpg);
     min-height: 540px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -93,7 +92,7 @@ img {
 }
 .title-dreams {
     padding-top: 40px;
-    font-size: 30px;
+    font-size: 28px;
 }
 .link-find {
     display: block;
@@ -110,8 +109,7 @@ img {
     font-weight: bold;
     width: 280px;
     height: 40px;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin: 20px auto;
     border: 2px solid transparent;
     border-radius: 30px;
     padding: 10px 40px;
@@ -156,6 +154,79 @@ img {
     text-align: center;
     width: 220px;
 }
+.icon {
+    position: relative;
+}
+.icon::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 30%;
+    height: 30%;
+    bottom: 0;
+    right: 0;
+    background-image: url(../img/partner/partner1icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff4e50;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+.icon2 {
+    position: relative;
+}
+.icon2::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 30%;
+    height: 30%;
+    bottom: 0;
+    right: 0;
+    background-image: url(../img/partner/partner2icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffa507;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+.icon3 {
+    position: relative;
+}
+.icon3::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 30%;
+    height: 30%;
+    bottom: 0;
+    right: 0;
+    background-image: url(../img/partner/partner3icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #1cd7ad;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+.icon4 {
+    position: relative;
+}
+.icon4::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 30%;
+    height: 30%;
+    bottom: 0;
+    right: 0;
+    background-image: url(../img/partner/partner4icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #4e73db;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+
 .other-partner {
     font-family: 'Montserrat';
     font-weight: bold;
@@ -172,3 +243,4 @@ img {
     padding-top: 10px;
     font-size: 14px;
 }
+  
